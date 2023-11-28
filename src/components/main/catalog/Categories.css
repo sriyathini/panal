@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.catagories{
+    margin-top: 70px;
+    margin-left: -20px;
+    overflow: hidden !important;
+}
+.catagories .home2{
+    float: right;
+    width: 82.5%;
+    font-size: medium;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    height: 200px;
+}
+.catagories Link{
+    text-decoration: none !important;
+    color: gray !important;
+    font-size: 50px !important;
+}
+.catagories .head{
+    color: rgb(78, 78, 78);
+    float: left;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid grey;
+}
+.catagories .addnew{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.catagories .addnew .icon{
+    width: 35px !important;
+    height: 35px !important;
+    color: white;
+    border-radius: 5px; 
+
+}
+.catagories .addnew .icon:hover{
+    color: rgb(156, 244, 252) !important;
+}
+.add{
+    margin-top: 70px;
+    margin-left: -20px;
+    overflow: hidden;
+}
+.add .home3{
+    float: right;
+    width: 82.5%;
+    font-size: medium;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    height: 200px
+}
+.add Link{
+    text-decoration: none !important;
+    color: gray !important;
+    font-size: 50px !important;
+}
+.add .container{
+    margin-left: 30%;
+}
