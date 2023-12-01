@@ -53,17 +53,18 @@
     width: 100%;
     border-collapse: collapse;
   }
-/*   
+  
   .catagories .table th,
   .catagories .table td {
-    border: 2px solid rgb(160, 255, 156);
+    border: 2px solid black(70, 255, 156) !important;
     padding: 8px;
     text-align: left;
   }
   
+/*   
   .catagories .table th {
     background-color: #d5b2b2;
-  }
+  } */
 
   
   .catagories .table-row-even {
@@ -73,7 +74,7 @@
   .catagories .table-row-odd {
     background-color: white;
   }
-   */
+  
 
 .add{
     margin-top: 70px;

@@ -115,7 +115,7 @@ function Categories(){
             {data.map((category,index) => (
                 <tr
                   key={category._id}
-                  className={index % 2 === 0 ? 'table-row-even' : 'table-row-odd'}
+                  style={{backgroundColor:index % 2 === 0 ? 'gray' : 'white'}}
                 >
                   <td style={{width:'10%'}}>
                     <input
@@ -134,7 +134,7 @@ function Categories(){
             </tbody>
           </table>
         ) : (
-          <p style={{textAlign:'center',color:'red',fontSize:' 40px'}}></p>
+          <p style={{textAlign:'center',color:'red',fontSize:' 40px'}}>Data Not Found</p>
         )}
       </div>
       
