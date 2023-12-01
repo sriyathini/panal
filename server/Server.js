@@ -28,7 +28,6 @@ app.get("/insert/categories", async (req, res) => {
   }
 });
 
-
 app.post("/insert/categories", async (req, res) => {
   console.log("hit");
   const newUser = new Category({

@@ -4,9 +4,9 @@
     padding: 0px;
 }
 .catagories{
-    margin-top: 70px;
     margin-left: -20px;
-    overflow: hidden !important;
+    overflow: hidden;
+    margin-top: 100px;
 }
 .catagories .home2{
     float: right;
@@ -14,12 +14,11 @@
     font-size: medium;
     font-family: 'Lato', sans-serif;
     padding: 20px;
-    height: 200px;
 }
 .catagories Link{
-    text-decoration: none !important;
-    color: gray !important;
-    font-size: 50px !important;
+    text-decoration: none;
+    color: gray;
+    font-size: 50px;
 }
 .catagories .head{
     color: rgb(78, 78, 78);
@@ -34,17 +33,48 @@
     font-size: 20px;
     padding-left: 20px;
 }
-
+.catagories .addnew button{
+    border-style: none;
+    font-size: 20px;
+    padding-left: 4px;
+}
 .catagories .addnew .icon{
     width: 35px !important;
     height: 35px !important;
     color: white;
     border-radius: 5px; 
 
+}  
+ #table{
+    width: 70%;
+    margin-left: 21%;   
 }
-.catagories .addnew .icon:hover{
-    color: rgb(156, 244, 252) !important;
-}
+.catagories .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+/*   
+  .catagories .table th,
+  .catagories .table td {
+    border: 2px solid rgb(160, 255, 156);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .catagories .table th {
+    background-color: #d5b2b2;
+  }
+
+  
+  .catagories .table-row-even {
+    background-color: rgb(144, 138, 138);
+  }
+  
+  .catagories .table-row-odd {
+    background-color: white;
+  }
+   */
+
 .add{
     margin-top: 70px;
     margin-left: -20px;
@@ -56,13 +86,25 @@
     font-size: medium;
     font-family: 'Lato', sans-serif;
     padding: 20px;
-    height: 200px
 }
 .add Link{
-    text-decoration: none !important;
-    color: gray !important;
-    font-size: 50px !important;
+    text-decoration: none;
+    color: gray;
+    font-size: 50px;
 }
 .add .container{
-    margin-left: 30%;
+    margin-left: 15%;
+}
+.add .goback{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.add .goback .icon{
+    width: 35px !important;
+    height: 35px !important;
+    color: white;
+    border-radius: 5px; 
+
 }

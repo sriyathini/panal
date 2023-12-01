@@ -98,13 +98,16 @@
 .form .col img:hover{
 background-color: rgb(119, 116, 116,.5);
 }
-.categories{
+/* .categories{
   margin-top: 100px;
   margin-left: 30%;
-}
-.table{
+} */
+/* .table{
   margin-top: 50px;
-} 
+  overflow: hidden !important;
+  margin-left: 10%;
+  margin-right: 10%;
+}  */
 
 /* dashbored */
 
